@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#conf {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}

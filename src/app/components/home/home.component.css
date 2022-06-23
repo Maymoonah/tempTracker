@@ -1,0 +1,18 @@
+.container {
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* https://www.freepik.com/photos/sunny-weather : Sunny weather photo created by kjpargeter */
+    background-image: url('../../../hd-wallpaper-4485609_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home h1 {
+    margin-bottom: 15px;
+    font-size: 56px;
+}

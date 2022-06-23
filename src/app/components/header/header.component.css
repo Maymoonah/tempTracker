@@ -1,0 +1,19 @@
+#title {
+    color: #FFF;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fa-icon {
+    color: #ffc107;
+    font-size: 24px;
+    padding: 4px;
+}
+
+.navbar {
+    background-color: #050656;
+}
+
+li .nav-link {
+    color: #FFF;
+}

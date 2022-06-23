@@ -1,0 +1,65 @@
+.container {
+    margin-top: 50px;
+}
+
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form label {
+    padding: 8px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 6px;
+}
+
+form {
+    float: right;
+    width: 45%;
+    margin-left: 10px;
+    height: 80%;
+    padding: 0px;
+}
+
+.errorMsg {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.show .modal {
+    display: block;
+}
+
+.card {
+    
+    height: 100%;
+    text-align: center;
+}
+
+#subImage {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 50px 0;
+}
+
+.card h4 {
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+
+    .info, .form {
+        float: none;
+        width: 80%;
+        text-align: center;
+    }
+    
+}
