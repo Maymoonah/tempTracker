@@ -1,18 +1,30 @@
 .container {
-    vertical-align: middle;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 15%;
+    padding-left: 5%;
+    background-size: cover;
     height: 100vh;
-    /* https://www.freepik.com/photos/sunny-weather : Sunny weather photo created by kjpargeter */
-    background-image: url('../../../hd-wallpaper-4485609_1920.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.home {
+    background-image: url('../../../umbrella.jpg');
     background-size: cover;
 }
 
 .home h1 {
-    margin-bottom: 15px;
-    font-size: 56px;
+    font-size: 4rem;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.home p {
+    color: #fff;
+}
+
+.home button {
+    width: 50%;
+    font-weight: bold;
+    width: 50%;
 }
