@@ -19,8 +19,6 @@ input {
 }
 
 form {
-    float: right;
-    width: 45%;
     margin-left: 10px;
     height: 80%;
     padding: 0px;
@@ -33,25 +31,9 @@ form {
     font-size: 16px;
 }
 
-.show .modal {
-    display: block;
-}
-
-.card {
-    
-    height: 100%;
-    text-align: center;
-}
-
-#subImage {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    margin: 50px 0;
-}
-
-.card h4 {
-    text-align: left;
+.formImage {
+    background-image: url('../../../grass.jpg');
+    background-size: cover;
 }
 
 @media screen and (max-width: 767px) {
