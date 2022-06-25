@@ -32,7 +32,8 @@ form {
 }
 
 .formImage {
-    background-image: url('../../../umbrella.jpg');
+    background-image: url('../../../umbrella.jpg'); /* Photo by <a href="https://unsplash.com/@wimvanteinde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wim van 't Einde</a> on <a href="https://unsplash.com/s/photos/weather?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    */
     background-size: cover;
 }
 

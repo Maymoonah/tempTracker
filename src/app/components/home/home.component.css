@@ -9,7 +9,8 @@
 }
 
 .home {
-    background-image: url('../../../flowers.jpg');
+    background-image: url('../../../flowers.jpg'); /* Photo by <a href="https://unsplash.com/@andikausg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">andreas kretschmer</a> on <a href="https://unsplash.com/s/photos/meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    */
     background-size: cover;
 }
 
