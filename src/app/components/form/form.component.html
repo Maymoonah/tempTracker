@@ -1,19 +1,7 @@
 <app-header></app-header>
 <div class="container">
     <div class="row">
-        <div class="col-md-6 info">
-            <div class="card">
-                <h5 class="card-header">Thank you for your submission!</h5>
-                <div class="card-body">
-                  <img src="../../../grass.jpg" id="subImage">
-                  <h4>Temperature: {{ dataSubmitted.observationTemp }}</h4>
-                  <h4>Date: {{ dataSubmitted.observationDate }}</h4>
-                  <h4>Time: {{ dataSubmitted.observationTime }}</h4>
-                  <h4>Description: {{ dataSubmitted.observationDesc }}</h4>
-                </div>
-                <button class="btn btn-primary clear" (click)="hideSub()">Clear</button>
-            </div>
-        </div>
+        <div class="col-md-6 formImage"></div>
         <div class="col-md-6">
             <form class="form" #tempForm>
                 <div class="errorMsg" *ngIf="errorMsg">{{ errorMsg }}</div>
